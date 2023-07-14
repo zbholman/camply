@@ -3,6 +3,7 @@ services:
     camply:
         container_name: camply-docker-compose-example
         image: juftin/camply:latest
+        platform: linux/amd64
         environment:
             TZ: America/Denver
         volumes:
